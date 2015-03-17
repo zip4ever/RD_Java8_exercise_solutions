@@ -3,7 +3,7 @@ package com.realdolmen.java8.exercise3;
 /**
  * Created by KDAAU95 on 6/03/2015.
  */
-public class PrimePredicates {
+public interface PrimePredicates {
 
     public static boolean isPrime(Integer n) {
         boolean isPrime = true;
@@ -19,5 +19,4 @@ public class PrimePredicates {
     public static boolean isNotPrime(Integer n) {
         return !isPrime(n);
     }
-
 }
